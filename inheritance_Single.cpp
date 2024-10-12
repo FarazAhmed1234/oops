@@ -72,7 +72,7 @@ int main(){
     cout << "\nEnter the number of Staff: ";
     cin >> numStaff;
     Staff staff[100];
-    for (int i = 0; i < numPatient; i++) {
+    for (int i = 0; i < numStaff; i++) {
         string name, gender, position;
         int age;
         cout << "\nEnter details for Staff Member " << i + 1 << ":\n";
